@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main(){
-// khoi tao hai so nguyen
-   int firstnumber = 5;
-   int secondnumber = 10;
-//  tinh tong va luu ket qua vao bien khac
-   int total = firstnumber + secondnumber;
-//  ket qua
-   printf("tong cua firstnumber va secondnumber la: %d\n",total);
-	return 0;
+  int age;
+  //Kieu du lieu so nguyen
+  float height;
+  //Kieu du lieu so thuc
+  double pi;
+  //Kieu du lieu so thuc nhung do chinh xac cao hon
+  char k;
+  //Kieu du lieu ky tu
+  return 0;
 }
+	
