@@ -12,7 +12,7 @@ int main(){
 	printf(" hieu cua firstNumber va secondNumber la %d\n", minus);
 	int multy = firstNumber * secondNumber;
 	printf(" tich cua firstNumber va secondNumber la %d\n", multy);	
-	int divide = firstNumber / secondNumber;
+	float divide = firstNumber / secondNumber;
 	printf(" thuong cua firstNumber va secondNumber la %d\n", divide);	
 	return 0;
 }
