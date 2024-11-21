@@ -6,10 +6,10 @@ int main(){
    int width = 4;
    printf("Chieu rong la %d cm\n",width);
 // Tinh chu vi va dien tich
-    int chu_vi = 2 * (lengt+width);
-    int dien_tich = lengt * width;
+    int Perimeter = 2 * (lengt+width);
+    int Acreage = lengt * width;
 // Xuat ket qua
-    printf("Chu vi la %d\n",chu_vi);
-    printf("Dien tich la %d",dien_tich);
+    printf("Chu vi la %d\n",Perimeter);
+    printf("Dien tich la %d",Acreage);
 	return 0;
 }
