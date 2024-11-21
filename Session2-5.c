@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-// Khai bao hai bien chieu dai va chieu rong
+// Khai bao bien chieu dai va chieu rong
    int lengt = 10;
    printf("Chieu dai la %d cm\n",lengt);
    int width = 4;
