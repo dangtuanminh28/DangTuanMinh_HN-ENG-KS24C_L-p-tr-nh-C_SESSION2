@@ -1,15 +1,10 @@
 #include<stdio.h>
 int main(){
-// Khai bao hai bien chieu dai va chieu rong
-   int lengt = 10;
-   printf("Chieu dai la %d cm\n",lengt);
-   int width = 4;
-   printf("Chieu rong la %d cm\n",width);
-// Tinh chu vi va dien tich
-    int chu_vi = 2 * (lengt+width);
-    int dien_tich = lengt * width;
-// Xuat ket qua
+    int canh = 10;
+    printf("Canh la %d \n",canh);
+    int chu_vi = 4 * canh;
     printf("Chu vi la %d\n",chu_vi);
+    int dien_tich = canh * canh;
     printf("Dien tich la %d",dien_tich);
-	return 0;
+   return 0;
 }
