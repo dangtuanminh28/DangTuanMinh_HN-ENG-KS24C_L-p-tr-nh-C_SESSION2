@@ -31,7 +31,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <None Include="book.dat">
+    <None Include="books.dat">
       <Filter>Data</Filter>
     </None>
   </ItemGroup>

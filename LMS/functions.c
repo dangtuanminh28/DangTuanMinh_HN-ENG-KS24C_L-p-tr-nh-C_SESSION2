@@ -253,8 +253,19 @@ void addBook(struct Book books[], int* count) {
 	books[*count].author[strcspn(books[*count].author, "\n")] = 0; // Loai bo ky tu xuong dong
 
 	// Nhap Price
-	printf("Enter Price: ");
-	scanf_s("%d", &books[*count].price);
+	int priceValid = 0; // Kiem tra Price
+	while (!priceValid) {
+		printf("Enter Price: ");
+		scanf_s("%d", &books[*count].price);
+		getchar(); //  Loai bo ky tu xuong dong
+
+		if (books[*count].price < 0) {
+			printf("Error: Price cannot be negative! Please enter a valid price.\n");
+		}
+		else {
+			priceValid = 1; // Gia tri hop le
+		}
+	}
 
 	(*count)++; // Tang so luong sach
 	printf("\nBook added successfully!\n");
